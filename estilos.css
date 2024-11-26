@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e67dd8;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #555555;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+header {
+    background-color: #f1aadc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+#ulmenu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#ulmenu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#ulmenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ulmenu a:hover {
+    color: #ff00b3; 
+}
+
+#boxprductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    grid-auto-rows: auto;
+    margin: 20px auto; 
+    max-width: 800px;
+}
+
+#boxproducto {
+    background-color: #f3c2e7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+#boxproducto:hover {
+    transform: translateY(-5px);
+}
+
+#boxproducto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+h2 {
+    margin: 5px 5px;
+    font-size: 30px;
+}
+
